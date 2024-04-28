@@ -86,11 +86,17 @@ class TestBaseModel(unittest.TestCase):
         inst1 = BaseModel()
         time.sleep(0.1)
         toc = datetime.now()
+        print("tic:", tic)
+        print("inst1.created_at:", inst1.created_at)
+        print("toc:", toc)
         self.assertTrue(tic <= inst1.created_at <= toc)
-        time.sleep(0.1)
+        time.sleep(1e-4)
         tic = datetime.now()
         inst2 = BaseModel()
         toc = datetime.now()
+        print("tic:", tic)
+        print("inst2.created_at:", inst2.created_at)
+        print("toc:", toc)
         self.assertTrue(tic <= inst2.created_at <= toc)
         self.assertEqual(inst1.created_at, inst1.updated_at)
         self.assertEqual(inst2.created_at, inst2.updated_at)
@@ -152,6 +158,7 @@ class TestBaseModel(unittest.TestCase):
         inst = BaseModel()
         old_created_at = inst.created_at
         old_updated_at = inst.updated_at
+        time.sleep(1)
         inst.save()
         new_created_at = inst.created_at
         new_updated_at = inst.updated_at
