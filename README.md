@@ -156,8 +156,8 @@ No known bugs at this time.
 ## Authors
 Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)
-Mavis Iyoha - [Github](https://github.com/unbow-unbent-unbroken) / [Twitter](https://twitter.com/Mavis_Iyoha)
-Emmanuel Eboh - [Github](https://github.com/Manuel1426) / [Twitter](https://twitter.com/)
+### Mavis Iyoha - [Github](https://github.com/unbow-unbent-unbroken) / [Twitter](https://twitter.com/Mavis_Iyoha)
+### Emmanuel Eboh - [Github](https://github.com/Manuel1426) / [Twitter](https://twitter.com/)
 
 Second part of Airbnb: Joann Vuong
 ## License
